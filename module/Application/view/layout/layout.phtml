@@ -1,0 +1,17 @@
+<?php echo $this->doctype(); ?>
+
+<html lang="en">
+    <head>
+        <title>application site</title>
+    </head>
+    <body>
+        <h1>application site, parent theme</h1>
+        <div class="container">
+            <?php echo $this->content; ?>
+            <hr>
+            <?php echo $this->blogSite; ?>
+            <?php echo $this->footer; ?>
+        </div> <!-- /container -->
+        <?php echo $this->inlineScript() ?>
+    </body>
+</html>
